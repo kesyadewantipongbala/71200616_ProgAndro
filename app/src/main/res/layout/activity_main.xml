@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.a71200616.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Halo, silahkan isi data anda!"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kota Asal"
+        android:textSize="17sp" />
+
+    <Spinner
+        android:id="@+id/listItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/daftar_kota"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kota Tujuan"
+        android:textSize="17sp" />
+
+    <Spinner
+        android:id="@+id/listItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/daftar_kota"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"
+        android:textSize="17sp" />
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="401dp" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+
+</LinearLayout>

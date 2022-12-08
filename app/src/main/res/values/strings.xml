@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">71200616</string>
+    <string-array name="daftar_kota">
+        <item>Yogyakarta</item>
+        <item>Jakarta</item>
+        <item>Bali</item>
+    </string-array>
+</resources>
